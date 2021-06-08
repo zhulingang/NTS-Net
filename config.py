@@ -1,0 +1,10 @@
+BATCH_SIZE = 16
+PROPOSAL_NUM = 6
+CAT_NUM = 4
+INPUT_SIZE = (448, 448)  # (w, h)
+LR = 0.01
+WD = 1e-5
+SAVE_FREQ = 5
+resume = ''
+test_model = '085.ckpt'
+save_dir = './models/'
